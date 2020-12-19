@@ -1,0 +1,222 @@
+body{
+   
+    background: url(signup.jpg);
+   
+   background-size: cover;
+     background-position: center center;
+   
+        font-family: "fira-sans", "San Francisco", "Segoe UI", sans-serif;
+    background-repeat: no-repeat;
+  
+   height: 100%;
+    overflow: hidden;
+}
+
+
+.logohomestar{
+    
+   position: relative;
+    left: 300px;
+    top: 40px;
+   
+width: 10%;
+    
+}
+
+.p1{
+    position: relative;
+    top: 100px;
+    left: 300px;
+    font-size: 50px;
+    color: white;
+width: 90%;
+    opacity: 0.9;
+    text-shadow: 2px 2px black;
+    font-style: italic;
+}
+
+.p2{
+    position: relative;
+    top: 50px;
+    left: 300px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    width: 90%;
+    opacity: 0.9;
+    text-shadow: 1px 2px black;
+    font-style: italic;
+}
+
+.compname{
+    background-color: #F8F8F8;
+  color: black;
+  padding: 16px;
+  font-size: 1.2em;
+  border: none;
+  border-style: solid;
+   width: 12em;
+    height: 0.4em;
+    border-width: thin;
+    border-radius: 5px;
+  position: relative;
+    left: 1000px;
+    top: -100px;
+    text-align: left;
+    margin-bottom: 60px;
+    
+}
+
+
+.compname::placeholder{
+   color: dimgrey;
+    font-weight: 500;
+    opacity: 0.8;
+    
+}
+
+
+
+.compname:hover, .compname:focus {
+  background-color: #E1E1E1;
+   
+   
+   
+}
+
+
+
+
+.pcode{
+    background-color: #F8F8F8;
+  color: black;
+  padding: 16px;
+  font-size: 1.2em;
+  border: none;
+  border-style: solid;
+   width: 12.1em;
+    height: 0.4em;
+    border-width: thin;
+    border-radius: 5px;
+  position: relative;
+    left: 731px;
+    top: -50px;
+    text-align: left;
+    margin-bottom: 60px;
+    
+}
+
+
+.pcode::placeholder{
+   color: dimgrey;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+
+.pcode:hover, .pcode:focus {
+  background-color: #E1E1E1;
+   
+   
+   
+}
+
+
+
+.pnum{
+    background-color: #F8F8F8;
+  color: black;
+  padding: 16px;
+  font-size: 1.2em;
+  border: none;
+  border-style: solid;
+   width: 12.1em;
+    height: 0.4em;
+    border-width: thin;
+    border-radius: 5px;
+  position: relative;
+    
+    text-align: left;
+    margin-bottom: 60px;
+    
+    left: 461px;
+    
+}
+
+
+.pnum::placeholder{
+   color: dimgrey;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+
+.pnum:hover, .pnum:focus {
+  background-color: white;
+   
+   
+   
+}
+.logintext{
+    position: relative;
+    left: 1000px;
+    top: -100px;
+    width: 25%;
+    color: white;
+}
+
+
+
+
+
+.loginbutton{
+    background-color: #27A9E1; /*#ECB73F;*/
+  border: none;
+  color: white;
+  padding: 12px 100px;
+  text-align: center;
+  text-decoration: none;
+    text-decoration-style: solid;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 2px;
+  cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: "fira-sans", "San Francisco", "Segoe UI", sans-serif;;
+    box-shadow: 1px 1px black;
+    position: relative;
+    left: 191px;
+    top: 150px;
+    
+    
+}
+
+.loginbutton:hover{
+   /*#edad6c;*/
+    opacity: 0.8;
+     text-decoration: none;
+  
+}
+
+
+.fom1{
+     position: relative;
+    left: 1025px;
+    top: -50px;
+    width: 25%;
+    color: white;
+    text-shadow: 1px 1px black;
+    
+}
+
+.new{
+    position: relative;
+  color: white;
+    left: 300px;
+    bottom: 200px;
+    font-size: 22px;
+    
+}

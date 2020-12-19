@@ -1,0 +1,302 @@
+body{
+    font-family: "fira-sans", "San Francisco", "Segoe UI", sans-serif;
+   overflow-x: hidden;
+}
+
+.backgroundimg{
+
+     background: url(register2.jpg);
+   
+   background-size: cover;
+     background-position: center center;
+   
+    
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+   height: 100%;
+
+}
+
+
+
+.logohomestar{
+    
+   position: relative;
+    left: 10px;
+   filter:saturate(160%);
+width: 10%;
+    
+}
+
+.p1{
+    position: relative;
+    top: 50px;
+    left: 150px;
+    font-size: 50px;
+    color: purple;
+width: 90%;
+    opacity: 0.9;
+}
+
+.p2{
+    position: relative;
+    top: 50px;
+    left: 150px;
+    font-size: 20px;
+    color: purple;
+    font-weight: 500;
+    width: 90%;
+    opacity: 0.9;
+}
+
+.compname{
+    background-color: #F8F8F8;
+  color: black;
+  padding: 16px;
+  font-size: 1.2em;
+  border: none;
+  border-style: solid;
+   width: 15em;
+    height: 0.4em;
+    border-width: thin;
+    border-radius: 2px;
+  position: relative;
+    left: 1100px;
+    top: -200px;
+    text-align: left;
+    margin-bottom: 60px;
+    
+}
+
+
+.compname::placeholder{
+   color: dimgrey;
+    font-weight: 500;
+    opacity: 0.8;
+    
+}
+
+
+
+.compname:hover, .compname:focus {
+  background-color: #E1E1E1;
+   
+   
+   
+}
+
+
+
+
+.pcode{
+    background-color: #F8F8F8;
+  color: black;
+  padding: 16px;
+  font-size: 1.2em;
+  border: none;
+  border-style: solid;
+   width: 6.4em;
+    height: 0.4em;
+    border-width: thin;
+    border-radius: 2px;
+  position: relative;
+    left: 1105px;
+    top: -242px;
+    text-align: left;
+    margin-bottom: 60px;
+    
+}
+
+
+.pcode::placeholder{
+   color: dimgrey;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+
+.pcode:hover, .pcode:focus {
+  background-color: #E1E1E1;
+   
+   
+   
+}
+
+
+
+.pnum{
+    background-color: #F8F8F8;
+  color: black;
+  padding: 16px;
+  font-size: 1.2em;
+  border: none;
+  border-style: solid;
+   width: 6.4em;
+    height: 0.4em;
+    border-width: thin;
+    border-radius: 2px;
+  position: relative;
+    left: 1268px;
+    text-align: left;
+    margin-bottom: 60px;
+    bottom: 400px;
+    
+}
+
+
+.pnum::placeholder{
+   color: dimgrey;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+
+.pnum:hover, .pnum:focus {
+  background-color: white;
+   
+   
+   
+}
+.logintext{
+    position: relative;
+    left: 1100px;
+    top: -200px;
+    width: 25%;
+}
+
+
+
+
+.fom1{
+   
+     position: relative;
+    left: 1100px;
+    top: -200px;
+    width: 25%;
+   
+}
+
+
+.fom2{
+     position: relative;
+    left: 1100px;
+    top: -255px;
+    width: 25%;
+    
+}
+
+.fom3{
+     position: relative;
+    left: 1105px;
+    top: -235px;
+    width: 10%;
+    
+}
+
+.fom4{
+     position: relative;
+    left: 1270px;
+    top: -390.5px;
+    width: 10%;
+    
+}
+
+
+.loginbutton{
+    background-color: palevioletred; /*#ECB73F;*/
+  border: none;
+  color: white;
+  padding: 12px 116px;
+  text-align: center;
+  text-decoration: none;
+    text-decoration-style: solid;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 2px;
+  cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: "fira-sans", "San Francisco", "Segoe UI", sans-serif;;
+    box-shadow: 1px 1px purple;
+    position: relative;
+    left: 940px;
+    bottom: 350px;
+    
+    
+}
+
+.loginbutton:hover{
+   /*#edad6c;*/
+    opacity: 0.8;
+     text-decoration: none;
+  
+}
+
+
+.dropbtn {
+  background-color: #F8F8F8;
+  color: black;
+  padding: 16px;
+  font-size: 1em;
+  border: none;
+  border-style: solid;
+   width: 18em;
+    height: 0.6em;
+    border-width: thin;
+    border-radius: 2px;
+    
+  
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #F8F8F8;
+    opacity: 0.8;
+}
+
+
+.dropdown {
+  position: relative;
+    left: 1100px;
+    top: -251px;
+
+
+
+   
+    
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    width: 20.1em; 
+    text-align: justify;
+   
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+    
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    text-decoration: none;
+    
+}
+
+
+.show {display:block;}
